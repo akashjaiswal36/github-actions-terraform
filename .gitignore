@@ -1,0 +1,29 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+
+# Lambda build artifacts
+lambda/function.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets (just in case)
+.env
