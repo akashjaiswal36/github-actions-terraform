@@ -94,6 +94,8 @@ resource "aws_apigatewayv2_stage" "default" {
     auto_deploy = true
 }
 
+
+
 resource "aws_lambda_permission" "allow_apigw" {
     statement_id  = "AllowAPIGatewayInvoke"
     action        = "lambda:InvokeFunction"
